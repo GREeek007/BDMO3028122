@@ -1,0 +1,71 @@
+C:\Users\YamatoRR\PythonProject2\.venv\Scripts\python.exe "C:/Program Files/JetBrains/PyCharm 2026.2.3/plugins/python-ce/helpers/pydev/pydevconsole.py" --mode=client --host=127.0.0.1 --port=54886 
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['C:\\Users\\YamatoRR\\PythonProject2'])
+PyDev console: starting.
+Python 3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)] on win32
+import numpy as up 
+np.array([0,2,4,6,8,10])
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'np' is not defined. Did you mean: 'up'?
+np.array([0,2,4,6,8,10])
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'np' is not defined. Did you mean: 'up'?
+import numpy as up 
+np.array([0,2,4,6,8,10])
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'np' is not defined. Did you mean: 'up'?
+np.array([0,2,4,6,8,10])
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'np' is not defined. Did you mean: 'up'?
+np.array 
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'np' is not defined. Did you mean: 'up'?
+import numpy as up 
+import numpy as np 
+np.array([0,2,4,6,8,10])
+array([ 0,  2,  4,  6,  8, 10])
+c = np.array([0,2,4,6,8,10]) 
+copy_c = c.copy()
+c
+array([ 0,  2,  4,  6,  8, 10])
+copy
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'copy' is not defined. Did you mean: 'copy_c'? Or did you forget to import 'copy'?
+copy_c
+array([ 0,  2,  4,  6,  8, 10])
+c *= 2
+c=c**2
+viwe = copy_c[na.array([2,3,4])]
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'na' is not defined. Did you mean: 'np'?
+viwe = copy_c[np.array([2,3,4])]
+viwe1 = c>100
+view1 = c>100
+view = copy_c[np.array([2,3,4])]
+view1 = c>100
+view2 = c[c>100]=95
+c.clip(2,94)
+array([ 2, 16, 64, 94, 94, 94])
+data = np.genfromtxt("data/web_traffic.tsv", delimiter="\t")
+np.isnan(data)
+array([[False, False],
+       [False,  True],
+       [False, False],
+       ...,
+       [False, False],
+       [False, False],
+       [False, False]], shape=(743, 2))
+data[~np.isnan(data)]
+array([1.000e+00, 2.272e+03, 2.000e+00, ..., 5.906e+03, 7.430e+02,
+       4.881e+03], shape=(1478,))
+np.mean(data[~np.isnan(data)])
+np.float64(1162.7794316644113)
+np.std(data[~np.isnan(data)])
+np.float64(1011.5231284089888)
